@@ -76,5 +76,8 @@ test(jokepo('pedra', 'pedra'), 'empate');
 test(jokepo('pedra', 'tesoura'), 'pedra');
 test(jokepo('pedra', 'papel'), 'papel');
 test(jokepo('tesoura', 'tesoura'), 'empate');
+test(jokepo('tesoura', 'pedra'), 'pedra');
 test(jokepo('tesoura', 'papel'), 'tesoura');
 test(jokepo('papel', 'papel'), 'empate');
+test(jokepo('papel', 'tesoura'), 'tesoura');
+test(jokepo('papel', 'pedra'), 'papel');
